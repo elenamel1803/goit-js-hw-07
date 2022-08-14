@@ -9,7 +9,6 @@ galleryContainer.insertAdjacentHTML("beforeend", createGaleryItems);
 
 galleryContainer.addEventListener('click', onGalleryContainerCklick)
 
-
 function createGalery(evt) {
     return evt
         .map(({preview, original, description}) => {
